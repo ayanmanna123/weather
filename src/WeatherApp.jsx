@@ -41,6 +41,7 @@ export default function WeatherApp() {
       setLoading(false);
       // Default to London if geolocation is not supported
       fetchWeatherByCity("London");
+     console.log("successfull")
     }
   };
 
