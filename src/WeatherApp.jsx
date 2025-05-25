@@ -29,6 +29,10 @@ export default function WeatherApp() {
         (position) => {
           fetchWeatherByCoords(position.coords.latitude, position.coords.longitude);
         },
+        /* The above code is a JavaScript React arrow function that handles an error when trying to get
+        the user's location. It sets an error message using the `setError` function and then sets
+        the loading state to false using the `setLoading` function. If geolocation fails, it fetches
+        weather data for the city of London using the `fetchWeatherByCity` function. */
         (err) => {
           setError("Failed to get your location. Please search manually.");
           setLoading(false);
