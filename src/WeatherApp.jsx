@@ -10,6 +10,7 @@ export default function WeatherApp() {
   const [darkMode, setDarkMode] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
+   const [error1, setError1] = useState(null)
   
   // Fetch weather data on initial load using geolocation
   useEffect(() => {
