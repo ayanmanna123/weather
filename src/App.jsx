@@ -10,7 +10,7 @@ function App() {
   return (
     <>
        <WeatherApp />
-       <WeatherApp />
+        
        {/* not */}
        {/* not */}
         {/* not */}
